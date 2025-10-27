@@ -20,23 +20,23 @@ A powerful tool to convert your Markdown-based portfolio into a beautiful, custo
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
 \`\`\`bash
-git clone <your-repo-url>
-cd rp
+git clone https://github.com/zyber-jagan/portfolio-maker.git
+cd portfolio-maker
 \`\`\`
 
-2. Install dependencies:
+Install dependencies:
 \`\`\`bash
 npm install
 \`\`\`
 
-3. Run the development server:
+Run the development server:
 \`\`\`bash
 npm run dev
 \`\`\`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## 📖 Usage
 
@@ -96,24 +96,17 @@ Dark theme for reduced eye strain
 
 ### GitHub Pages (Recommended)
 
-1. **Push to GitHub**:
-   \`\`\`bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git push -u origin main
-   \`\`\`
+**To enable GitHub Pages:**
 
-2. **Enable GitHub Pages**:
-   - Go to repository **Settings** → **Pages**
-   - Source: **Deploy from a branch**
-   - Branch: **main** / **(root)** or **gh-pages**
-   - Your site will be live at: `https://YOUR_USERNAME.github.io/YOUR_REPO`
+1. Go to repository **Settings** → **Pages**
+2. Under **Build and deployment**:
+   - Source: **GitHub Actions**
+3. Click **Save**
+4. Wait 2-5 minutes for deployment
+
+Your site will be live at: `https://zyber-jagan.github.io/portfolio-maker`
 
 **Automatic Deployment**: The included GitHub Actions workflow will automatically deploy on every push!
-
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
 
 ### Netlify/Vercel
 
@@ -143,4 +136,3 @@ If you have any questions or issues, please open an issue on GitHub.
 ---
 
 Made with ❤️ using Next.js and Tailwind CSS
-
